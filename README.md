@@ -1,6 +1,6 @@
 # Blender Copy Material Assignments Add-on
 
-This Blender add-on allows you to copy material assignments from one object (the active object) to other selected objects. 
+This Blender add-on allows you to copy material assignments from one object (the active object) to other selected objects.
 The material slots are not only copied, but also assigned to the corresponding geometry of the target object.
 This is useful when you have multiple objects with the same geometry and want to ensure they all have the same material assignments.
 
@@ -18,7 +18,7 @@ This is useful when you have multiple objects with the same geometry and want to
 
 1. Select the target objects (the ones you want to assign the materials to).
 2. Shift-select the source object (the one with the correct material assignments) so that it is the active object.
-3. Go to **Object > Copy Material Assignments** in the 3D Viewport menu.
+3. Press **STRG+L** (**COMMAND+L** on MAC) or go to **Object > Link/Transfer Data** and choose **Copy Material Assignments** in the 3D Viewport menu.
 
 The add-on will copy the material assignments from the active object to the selected objects.
 

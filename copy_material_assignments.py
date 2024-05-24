@@ -48,15 +48,17 @@ class OBJECT_OT_copy_material_assignments(bpy.types.Operator):
         return {'FINISHED'}
 
 def menu_func(self, context):
-    self.layout.operator(OBJECT_OT_copy_material_assignments.bl_idname)
+    layout = self.layout
+    layout.separator()
+    layout.operator(OBJECT_OT_copy_material_assignments.bl_idname)
 
 def register():
     bpy.utils.register_class(OBJECT_OT_copy_material_assignments)
-    bpy.types.VIEW3D_MT_object.append(menu_func)
+    bpy.types.VIEW3D_MT_make_links.append(menu_func)
 
 def unregister():
     bpy.utils.unregister_class(OBJECT_OT_copy_material_assignments)
-    bpy.types.VIEW3D_MT_object.remove(menu_func)
+    bpy.types.VIEW3D_MT_make_links.remove(menu_func)
 
 if __name__ == "__main__":
     register()

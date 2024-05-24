@@ -6,7 +6,7 @@ This is useful when you have multiple objects with the same geometry and want to
 
 ## Installation
 
-1. Download the `copy_material_assignments.py` file from this repository.
+1. Download the [copy_material_assignments.py](copy_material_assignments.py) file from this repository (choose the "Download raw file" button on the right).
 2. Open Blender.
 3. Go to **Edit > Preferences**.
 4. In the Preferences window, go to the **Add-ons** section.
@@ -34,7 +34,7 @@ If you encounter any issues or have suggestions for improvements, feel free to o
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License.
 
 ## Credits
 
